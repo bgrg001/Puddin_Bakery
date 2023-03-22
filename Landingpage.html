@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        position: relative; 
+        height: 20%;
+        width: 100%;
+        background-color: rgb(234, 232, 232);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      #box1 {
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        width: 95%;
+      }
+
+      h2{
+        display: flex;
+        flex-grow: 5;
+        border: 5px solid lightgray;
+        padding: 2px;
+        margin: 2px;
+      }
+      button {
+        margin: 4px;
+        background-color: lightpink;
+        padding: 7px;
+      }
+
+      h1 {
+        border: solid 2px black;
+        padding: 50px;
+        background-color: rgb(31, 111, 161);
+        font-size: medium;
+        color: white;
+        border: rgb(234, 232, 232);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      #section1 {
+        display: flex;
+        flex-direction: row;
+      }
+
+      #introduction {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+      #video {
+        width: 30%;
+        background-color: rgb(241, 147, 161);
+        border: 15px solid; 
+        border-color:rgb(234, 232, 232);
+      }
+      video{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+      }
+
+      #cakes{ 
+        width: 100%;
+        background-color: rgb(241, 147, 161);
+
+      }
+      #section2 {
+        display: flex;
+        flex-direction: row;
+      }
+      img{
+        border: 0px solid;
+      }
+      #images2a {
+        width: 20%;
+        border: 10px solid rgb(234, 232, 232);
+        background-color: rgb(241, 147, 161);
+        display: flex;
+        justify-content: center;
+      }
+
+      #section3 {
+        display: flex;
+        flex-direction: row;
+      }
+      #images3 {
+        width: 30%;
+        background-color: lightpink;
+        border: 10px solid;
+        border-color: rgb(234, 232, 232);
+        display: flex;
+        justify-content: center;
+      }
+      #tea {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      <h2>A Slice of Sin</h2>
+      <button>Contact Us</button>
+      <button src="individualform.html">Individual Bookings</button>
+      <button src="groupform.html">Group Bookings</button>
+      <button src="secrettearoom.html">The Secret Tea Room</button>
+    </div>
+    <div id="body1">
+      <div id="section1">
+      <h1 id="video">
+          <video width="320" height="240" controls autoplay>
+        <source src="cookies-66.mp4" /></video></h1>
+      <h1 id="introduction">Welcome to A Slice of Sin.</br>
+        We offer premium and devilishly delicious, homemade baked goods.</br>
+      Established in Thetford, Norfolk,  A Slice of Sin is an award winning bakery providing bakes for all occassions.</h1>
+      <h1><img id="cakes" src="baked.jpg"> </h1>
+    </div>
+      <div id="section2">
+        <h1><img id="images2" width="280" height="200" src="OliveVictoriaSponge1-051a959.jpg"></h1>
+        <h1>A Slice of Sin has won the East Anglia Baker of the Year award for 3 years in a row.</br>
+        We are renowned for delicious brownies, lotus cheesecake and oatie cakes. Take a look at our collection of bakes.</h1>
+        <h1 id="images2a"><img width="280" height="200" src="cakes.jpg"></h1>
+      </div>
+      <div id="section3">
+        <h1 id="images3"><img width="320" height="200" src="afternoontea.webp"></h1>
+        <h1 id="tea">Experience our tea room and try our afternoon tea experience. 
+          Enquire here.</h1><h1><img width="320" height="240" src="afternoontea2.webp"></h1>
+      </div>
+    </div>
+
+    <script src="Javascript.JS"></script>
+  </body>
+</html>
